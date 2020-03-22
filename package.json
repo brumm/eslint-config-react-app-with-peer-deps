@@ -1,0 +1,28 @@
+{
+  "name": "eslint-config-react-app-with-peer-deps",
+  "version": "0.0.1",
+  "description": "ESLint configuration used by Create React App, including its peer dependencies, but als dependencies",
+  "main": "index.js",
+  "repository": "brumm/brumm/eslint-config-react-app-with-peer-deps",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/brumm/eslint-config-react-app-with-peer-deps/issues"
+  },
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "update-package": "node fetch-deps.js"
+  },
+  "keywords": [
+    "eslint",
+    "config",
+    "create-react-app",
+    "peer",
+    "dependencies"
+  ],
+  "author": "brumm",
+  "dependencies": {
+    "eslint-config-react-app": "^5.2.1"
+  }
+}
